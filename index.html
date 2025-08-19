@@ -4,19 +4,34 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>mr.Sahana</title>
+    <link rel="stylesheet" href="style.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
       crossorigin="anonymous"
     />
-    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png" />
-    <link rel="icon" type="images/png" sizes="32x32" href="images/favicon-32x32.png" />
-    <link rel="icon" type="images/png" sizes="16x16" href="images/favicon-16x16.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="fabicon/png"
+      sizes="32x32"
+      href="favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="favicon/png"
+      sizes="16x16"
+      href="favicon/favicon-16x16.png"
+    />
     <link rel="manifest" href="/site.webmanifest" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary"data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Sahana</a>
         <button
@@ -44,22 +59,126 @@
             <li class="nav-item">
               <a class="nav-link" href="contact.html">Contact</a>
             </li>
-           
           </ul>
         </div>
       </div>
       <div class="container-fluid">
-    <form class="d-flex" role="search">
-      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-      <button class="btn btn-outline-success" type="submit">Search</button>
-    </form>
-  </div>
+        <form class="d-flex" role="search">
+          <input
+            class="form-control me-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
     </nav>
+
+    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="images/arpad-czapp-2t6st8T_J3k-unsplash.jpg"
+            class="d-block carousel-img"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="images/christopher-gower-m_HRfLhgABo-unsplash.jpg"
+            class="d-block carousel-img"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="images/juanjo-jaramillo-mZnx9429i94-unsplash.jpg"
+            class="d-block carousel-img"
+            alt="..."
+          />
+        </div>
+      </div>
+
+      <!-- Controls -->
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleFade"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleFade"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div class="container-fluid py-5">
+      <h1 class="display-5 fw-bold">Hi, I'm Mr. Akash Sahana</h1>
+      <p class="col-md-8 fs-4">
+        A Passionate Web Developer | Designer | Learner I build modern,
+        responsive, and user-friendly websites.
+      </p>
+      <a href="about.html" class="btn btn-outline-info btn-lg">About Me</a>
+    </div>
+
+    <div class="row align-items-md-stretch">
+      <div class="col-md-6">
+        <div class="h-100 p-5 text-bg-dark rounded-3">
+          <h2>Featured Projects</h2>
+          <p>
+            Here are some of the key projects I’ve worked on that highlight my
+            skills in web development. From creating responsive websites to
+            building interactive applications, these projects represent my
+            journey of learning and growth. 👉 Check out my Projects page to
+            explore more!
+          </p>
+          <a href="projects.html" class="btn btn-outline-success btn-lg"
+            >Projects</a
+          >
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="h-100 p-5 bg-body-tertiary border rounded-3">
+          <h2>Work With Me</h2>
+          <p>
+            Have an idea or need a website for your business? Let’s work
+            together! Whether it’s building a modern website, enhancing your
+            online presence, or any other web development needs — feel free to
+            contact me.
+          </p>
+          <a href="contact.html" class="btn btn-outline-secondary btn-lg">Contact</a>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- <footer class="container">
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p>© 2025 mr. Sahana <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+  </footer> -->
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
       crossorigin="anonymous"
     ></script>
+
+    <footer class="container py-4 mt-5 border-top">
+  <p class="float-end">
+    <a href="#top" class="btn btn-sm btn-outline-primary">⬆ Back to top</a>
+  </p>
+  <p>© 2025 Mr. Sahana · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+</footer>
+
   </body>
 </html>

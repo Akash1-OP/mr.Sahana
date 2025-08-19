@@ -1,0 +1,5 @@
+.carousel-img{
+  width: 100%;       /* full screen width */
+  height: 50vh;      /* half of screen height */
+  object-fit: cover; /* crop nicely without distortion */
+}
